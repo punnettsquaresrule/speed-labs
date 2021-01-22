@@ -36,72 +36,34 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-    overflow: visible;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #{{ site.color.primary }};
-}
-
-hr.star-primary {
-    border-color: #{{ site.color.secondary }};
-}
-
-hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
-}
-
-.img-centered {
+/*.img-centered {
     margin: 0 auto;
-}
+}*/
 
 header {
-    text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    text-align: left;
+    color: #181818;
+    background: red;
 }
 
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+
+
+header .container .header-item {
+    display: inline-block;
+    width: 50%;
 }
 
 header img {
-    display: block;
-    margin: 0 auto 20px;
+   /* display: block;
+    margin: 0 auto 20px;*/
 }
 
 header .intro-text .name {
-    display: block;
+/*    display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 700;*/
 }
 
 header .intro-text .skills {
@@ -110,11 +72,11 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
+/*    header .container {
         padding-top: 200px;
         padding-bottom: 100px;
     }
-
+*/
     header .intro-text .name {
         font-size: 4.75em;
     }
@@ -181,7 +143,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #181818;
     background: #{{ site.color.primary }};
 }
 
@@ -230,7 +192,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #181818;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -354,7 +316,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #181818;
 }
 
 footer h3 {
