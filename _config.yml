@@ -26,9 +26,11 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: F4F4F4
-  primary-rgb: "244,244,244" 
+  primary-rgb: "244,244,244"
+  action: CD4C2A
+  action-rgb: "205, 76, 42"
   secondary: ffffff 
-  secondary-dark: 233140 #A2122F
+  text: 181818 
 
 # Footer settings
 footer:
@@ -50,9 +52,7 @@ address:
   - line: Wellington, New Zealand
 
 # Credits content
-credits: 
-  - line: dan@speedlabs.co.nz
-  - line: 021 508 666
+credits: dan@speedlabs.co.nz | 021 508 666
 
 # Build settings
 markdown: kramdown
